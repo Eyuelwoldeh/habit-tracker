@@ -28,3 +28,41 @@ First, clone the repository to your local machine using Git:
 git clone https://github.com/your-username/habit-tracker.git
 cd habit-tracker
 ```
+## Install dependencies
+Once the project is cloned, install all the necessary dependencies by running the following command:
+
+```bash
+npm install
+```
+
+## Start the app
+After the dependencies are installed, you can start the development server and open the app in your browser:
+
+```bash
+npm start
+```
+
+The app will be available at http://localhost:3000 in your browser.
+
+## Usage
+
+Once the app is running, you can:
+
+- **Add a new habit**: Enter a habit name in the input field and click "Add Habit" to create a new habit.
+- **Increment completed days**: Click the "Increment" button next to a habit to increase the number of completed days.
+- **Delete a habit**: If you no longer want to track a habit, click the "Delete" button (trash icon) next to the habit name.
+- **View progress**: The app will show the number of completed days for each habit, helping you visualize your progress.
+
+## Data Persistence
+
+All your habits and progress are saved in the browser's localStorage. This means that even if you refresh the page or close and reopen the app, your data will remain intact.
+
+## Contributing
+
+Contributions are always welcome! If you find a bug or have an idea for a new feature, feel free to fork the repository, create a new branch, and submit a pull request. Here’s how you can contribute:
+
+1. Fork the repo
+2. Create a new branch (git checkout -b feature-xyz)
+3. Commit your changes (git commit -am 'Add new feature xyz')
+4. Push to the branch (git push origin feature-xyz)
+5. Open a pull request
