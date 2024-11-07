@@ -27,3 +27,4 @@ First, clone the repository to your local machine using Git:
 ```bash
 git clone https://github.com/your-username/habit-tracker.git
 cd habit-tracker
+```
