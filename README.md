@@ -15,6 +15,7 @@ Habit Tracker is a simple and interactive web application built with React, desi
 - **React**: A JavaScript library for building user interfaces. It's perfect for creating dynamic and responsive web apps like this one.
 - **localStorage**: A web storage solution that allows data to persist in the browser even after a page refresh. It helps store habit data locally so users don't lose their progress.
 - **CSS**: Custom styling for making the app visually appealing and user-friendly.
+- **HTML**: used to structure and define the content of the web page.
 
 ## Installation
 
